@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+body {
+    background-color: yellowgreen;
+    color: #0f141e;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+
+    font:normal 16px 'Roboto', sans-serif;
+    /* front-family:Cambria,Cochin,Georgia,Times,'Times New Roman', serif;*/
+}
+a:hover{
+    text-decoration: underline;
+}
+.avatar{
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
+}
+
+.info p{
+  color: #86898f;
+  margin: 0;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+ /* letter-spacing: 5px;*/
+ /*word-spacing: 20px;*/
+} 
+
+.conteiner{
+   max-width: 75%;
+   margin:auto;
+}
+
+.social {
+   background: red;
+   padding: 15px;
+   border:5px solid white;
+   border-bottom-style: double;
+   border-top-width: 10px;
+   border-right-color: violet;
+   margin:20px;
+
+}
+
+.bg-yellow{
+    background:gold;
+}
+.bg-green{
+    background:royalblue;
+}
+.content{
+    padding: 15px 20px;
+    margin-bottom:20px;
+    border-radius: 20px;
+}
+
+.list{
+    padding: 0 20px;
+}
+
+.list li{
+    color:#86898f;
+    margin-bottom: 10px;
+}
+
+.table{
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
